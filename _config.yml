@@ -1,7 +1,17 @@
 # Site settings
 title: Modern Blog
+email: doldol9080@kkookmin.ac.kr
 description: Modern-Blog A Elegant template for Jekyll
 keywords: Modern, Blogging, Fun
 author: Wferr
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+comment:
+  provider: "disqus"
+  disqus:
+    shortname: "Eureka_20223149"

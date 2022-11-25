@@ -5,6 +5,7 @@ author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/musang.jpg"
 date:   2015-04-20 12:12:12
+comments: true
 ---
 
 ### Dolor sit amet?
