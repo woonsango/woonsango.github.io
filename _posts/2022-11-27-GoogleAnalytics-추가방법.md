@@ -6,7 +6,7 @@ image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - googleanalytics
-- jeykll
+- jekyll
 category: blog
 contents: true
 ---
