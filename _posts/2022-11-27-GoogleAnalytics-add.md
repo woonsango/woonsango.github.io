@@ -8,7 +8,7 @@ tag:
 - googleanalytics
 - jekyll
 category: blog
-author: johndoe
+author: Choi Seon woo
 contents: true
 ---
 
