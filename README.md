@@ -155,3 +155,8 @@ comments: true
 4. favion 추가됐는지 확인  
 ![스크린샷, 2022-11-30 03-23-57](https://user-images.githubusercontent.com/105338988/204614521-43816d7b-8120-4493-a499-b9b85ff6a598.png)   
 
+## 6. post 추가 작성
+- **markdown**에 관한 post 작성 (링크)
+- **Google Analytics** 추가 방법에 대한 post 작성 ([이동](https://woonsango.github.io/markdown/))
+- **git & github**에 관한 post 작성 (링크)
+- **gekyll**에 관한 post 작성 (링크)
