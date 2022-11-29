@@ -160,3 +160,7 @@ comments: true
 - **Google Analytics** 추가 방법에 대한 post 작성 ([이동](https://woonsango.github.io/markdown/))
 - **git & github**에 관한 post 작성 (링크)
 - **gekyll**에 관한 post 작성 (링크)
+
+---------------------------
+
+### 앞으로도 git blog를 이용하여 새로 알게된 내용에 대해서는 blog, 내가 진행한 project에 대해서는 porject 카테고리에 글을 작성할 것이다.
