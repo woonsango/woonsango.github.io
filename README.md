@@ -30,3 +30,34 @@
 사용하지 않는 About, Resume 삭제
 
 -------------------------------------
+
+## 3. post 작성
+
+- _posts 디렉토리 안에 원하는 post의 내용을 markdown 형태로 작성
+- makrdown 파일 이름은 **년-월-일-파일이름.makrdown** 형태
+- 나의 Theme에 맞는 post 작성 방법에 따라 다음과 같이 초기 설정 진행
+
+```
+---
+title: "about me"
+layout: post
+date: 2022-11-25 3:23
+headerImage: false
+tag:
+- kookmin univ.
+- software
+star: true
+category: blog
+author: Choi Seon woo 
+contents: true
+---
+```
+- 위와 같이 title, date, category 등의 post에 대한 **정보** 입력
+- serve를 실행해 post가 잘 올라갔나 확인
+
+![스크린샷, 2022-11-30 02-42-55](https://user-images.githubusercontent.com/105338988/204603192-f81e649d-c5fb-463f-ab6a-b8aa2057645c.png)
+**post가 잘 된 것을 확인할 수 있다**
+
+--------------------------------------------
+
+## 3. post에 댓글 기능 추가
