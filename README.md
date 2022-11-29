@@ -7,7 +7,7 @@
 - 이후 나의 Git Local 저장소에 파일을 풀어줬다.
 - Theme이 잘 적용됐는지 확인하기 위해 **bundle exec jekyll serve** 명령어를 이용해 서버를 실행했다.
 
-![sample](https://user-images.githubusercontent.com/105338988/204583212-6771a512-961e-46e6-bb25-5254663b1ddd.jpg)
+![sample](https://user-images.githubusercontent.com/105338988/204583212-6771a512-961e-46e6-bb25-5254663b1ddd.jpg)  
 
 **다음 그림과 같이 테마가 잘 적용된 것을 확인할 수 있다.**
 
@@ -24,10 +24,10 @@
 6. 그 외의 설정들을 나에게 맞게 설정
 7. 사용하지 않는 설정 값을 지우거나 false 입력
 
-![Screenshot_20221130_022146_Chrome](https://user-images.githubusercontent.com/105338988/204599576-6a2af73d-2f9d-4dd1-ae7b-14d32b0ed03b.jpg)
+![Screenshot_20221130_022146_Chrome](https://user-images.githubusercontent.com/105338988/204599576-6a2af73d-2f9d-4dd1-ae7b-14d32b0ed03b.jpg)  
 
 **수정한 후의 모습**  
-사용하지 않는 About, Resume 삭제
+(사용하지 않는 About, Resume 삭제)
 
 -------------------------------------
 
@@ -92,7 +92,7 @@ comments: true
 ---
 ```
 7. 댓글 작성 후 확인
-![스크린샷, 2022-11-30 03-03-46](https://user-images.githubusercontent.com/105338988/204609961-e2ea4c77-f531-47b1-a174-a5086bb22f7b.png)
+![스크린샷, 2022-11-30 03-03-46](https://user-images.githubusercontent.com/105338988/204609961-e2ea4c77-f531-47b1-a174-a5086bb22f7b.png)  
 **댓글이 잘 달리는 것을 확인할 수 있다.**
 
 --------------------------------------------
@@ -133,3 +133,25 @@ comments: true
 -------------------------------
 
 ## 5. favicon 추가
+
+1. _includes/favicon.html 파일 생성
+2. 아래의 코드 추가
+``` html
+<link rel="apple-touch-icon-precomposed" sizes="16x16" href="{{ site.url }}/사진파일경로" />
+<link rel="apple-touch-icon-precomposed" sizes="32x32" href="{{ site.url }}/사진파일경로" />
+<link rel="apple-touch-icon-precomposed" sizes="96x96" href="{{ site.url }}/사진파일경로" />
+<link rel="icon" type="image/png" href="{{ site.url }}/사진파일경로" sizes="96x96" />
+<link rel="icon" type="image/png" href="{{ site.url }}/사진파일경로" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ site.url }}/사진파일경로" sizes="16x16" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+```
+3. _layouts/default.html 파일 안의 head 태그 안에 **{% include favicon.html %}** 입력
+4. favion 추가됐는지 확인  
+![스크린샷, 2022-11-30 03-23-57](https://user-images.githubusercontent.com/105338988/204614521-43816d7b-8120-4493-a499-b9b85ff6a598.png)   
+
