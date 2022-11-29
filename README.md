@@ -92,3 +92,44 @@ comments: true
 ---
 ```
 7. 댓글 작성 후 확인
+![스크린샷, 2022-11-30 03-03-46](https://user-images.githubusercontent.com/105338988/204609961-e2ea4c77-f531-47b1-a174-a5086bb22f7b.png)
+**댓글이 잘 달리는 것을 확인할 수 있다.**
+
+--------------------------------------------
+
+## 4. Google Analytics 추가
+1. google analytics 설정
+    1. google analytics 계정 가입
+    2. 관리자 항목의 data stream 항목에서 내 웹사이트를 등록한다.
+    3. 생성된 측정 ID를 기억한다.
+
+2. jekyll 설정
+    1. _includes 폴더에 analytics.html 파일을 생성한다.
+    2. analytics.html 파일에 아래의 코드를 추가한다.
+
+    ```html
+    <script async src="https://www.googletagmanager.com/gtag/js?id=측정ID"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ site.analytics-google }}');
+    </script>
+    ``` 
+
+    3. 측정ID라고 써져있는 곳에 자신의 측정ID를 입력한다.
+    4. default.html의 head 태그 안에 아래의 코드를 추가한다.
+    
+    ```html
+    {% raw %} {% include analytics.html %} {% endraw %}
+    ```
+
+3. 확인  
+    google analytics에 들어가 데이터가 수집되는지 확인한다.
+
+    ![스크린샷, 2022-11-29 19-34-44](https://user-images.githubusercontent.com/105338988/204507510-999f96f9-34b8-4ffc-bd96-2a4adcb574ed.png)
+
+-------------------------------
+
+## 5. favicon 추가

@@ -32,7 +32,7 @@ google analytics는 구글이 제공하는 웹 애널리틱스 서비스이다.
 
 2. jekyll 설정
     1. _includes 폴더에 analytics.html 파일을 생성한다.
-    2. analytics.html 파일에 다음의 내용을 추가한다.
+    2. analytics.html 파일에 아래의 코드를 추가한다.
 
     ```html
     <script async src="https://www.googletagmanager.com/gtag/js?id=측정ID"></script>
@@ -46,7 +46,7 @@ google analytics는 구글이 제공하는 웹 애널리틱스 서비스이다.
     ``` 
 
     3. 측정ID라고 써져있는 곳에 자신의 측정ID를 입력한다.
-    4. default.html의 head 태그 안에 다음의 코드를 추가한다.
+    4. default.html의 head 태그 안에 아래의 코드를 추가한다.
     
     ```html
     {% raw %} {% include analytics.html %} {% endraw %}
