@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "GoogleAnalytics 추가 방법"
 layout: post
 date: 2022-11-27 3:23
@@ -55,4 +55,4 @@ google analytics는 구글이 제공하는 웹 애널리틱스 서비스이다.
 3. 확인  
     google analytics에 들어가 데이터가 수집되는지 확인한다.
 
-    ![스크린샷, 2022-11-29 19-34-44](https://user-images.githubusercontent.com/105338988/204507510-999f96f9-34b8-4ffc-bd96-2a4adcb574ed.png) -->
+    ![스크린샷, 2022-11-29 19-34-44](https://user-images.githubusercontent.com/105338988/204507510-999f96f9-34b8-4ffc-bd96-2a4adcb574ed.png)
