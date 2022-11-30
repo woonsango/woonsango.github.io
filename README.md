@@ -59,7 +59,7 @@ author: Choi Seon woo
 
 --------------------------------------------
 
-## 3. post에 댓글 기능 추가
+## 4. post에 댓글 기능 추가
 
 1. disqus 가입
 2. disqus 셋팅
@@ -97,7 +97,7 @@ comments: true
 
 --------------------------------------------
 
-## 4. Google Analytics 추가
+## 5. Google Analytics 추가
 1. google analytics 설정
     1. google analytics 계정 가입
     2. 관리자 항목의 data stream 항목에서 내 웹사이트를 등록한다.
@@ -132,7 +132,7 @@ comments: true
 
 -------------------------------
 
-## 5. favicon 추가
+## 6. favicon 추가
 
 1. _includes/favicon.html 파일 생성
 2. 아래의 코드 추가
@@ -153,9 +153,11 @@ comments: true
 ```
 3. _layouts/default.html 파일 안의 head 태그 안에 **{% include favicon.html %}** 입력
 4. favion 추가됐는지 확인  
-![스크린샷, 2022-11-30 03-23-57](https://user-images.githubusercontent.com/105338988/204614521-43816d7b-8120-4493-a499-b9b85ff6a598.png)   
+![스크린샷, 2022-11-30 03-23-57](https://user-images.githubusercontent.com/105338988/204614521-43816d7b-8120-4493-a499-b9b85ff6a598.png)  
 
-## 6. post 추가 작성
+---------------------------
+
+## 7. post 추가 작성
 - **markdown**에 관한 post 작성 ([이동](https://woonsango.github.io/markdown/))
 - **Google Analytics** 추가 방법에 대한 post 작성 ([이동](https://woonsango.github.io/GoogleAnalytics-add/))
 - **git & github**에 관한 post 작성 ([이동](https://woonsango.github.io/git-github/))
