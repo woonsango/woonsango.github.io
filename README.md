@@ -159,7 +159,7 @@ comments: true
 - **markdown**에 관한 post 작성 ([이동](https://woonsango.github.io/markdown/))
 - **Google Analytics** 추가 방법에 대한 post 작성 ([이동](https://woonsango.github.io/GoogleAnalytics-add/))
 - **git & github**에 관한 post 작성 ([이동](https://woonsango.github.io/git-github/))
-- **gekyll**에 관한 post 작성 ([이동](https://woonsango.github.io/jekyl))
+- **gekyll**에 관한 post 작성 ([이동](https://woonsango.github.io/jekyll))
 
 ---------------------------
 
