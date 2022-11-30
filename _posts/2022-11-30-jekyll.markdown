@@ -1,0 +1,49 @@
+---
+title: "Gekyll"
+layout: post
+date: 2022-11-30 2:29
+headerImage: false
+tag:
+- gekyll
+category: blog
+author: Choi Seon woo
+contents: true
+---
+
+#### Elements
+- [jekyll](#jekyll)
+
+---
+
+## jekyll
+- jekyll은 정적 사이트 생성기이다. 
+- Github의 공동 설립자 톰 프레스턴 워너에 의해 루비 프로그래밍 언어로 개발했으며 오픈 소스 MIT 허가서로 배포된다.
+
+- 장점  
+ - 비교적 간단한 markdown을 사용하여 포스트를 작성할 수 있으며 HTML로 자동으로 변환해준다.
+ - Github Pages를 이용해 무료로 호스팅이 가능하다.
+ - 다양한 Theme을 이용해 blog를 다양하게 만들 수 있다.
+ - 다양한 Theme이 존재해 예쁜 blog를 만드는 접근이 쉽다.
+
+- 단점
+ - Theme를 받아오면 몇몇의 형식이 정해져있다.(장점일 수도 있다.)
+ - Theme을 받아왔기 때문에 오류를 찾기 힘들다.
+
+---
+
+### 사용법
+
+```
+gem install bundler jekyll
+
+jekyll new my-awesome-site
+
+cd my-awesome-site
+
+bundle exec jekyll serve
+```
+
+### 다음의 명령어를 사용하면 jekyll을 시작할 수 있다.
+**주의사항: ruby가 존재해야한다.**
+
+자세한 사용법은 [다음 링크](https://jekyllrb-ko.github.io/) 참조
